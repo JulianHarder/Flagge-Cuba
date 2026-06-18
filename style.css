@@ -5,6 +5,7 @@ body {
     padding: 0px;
 }
 
+/*Die allgemeinen Flaggeeinstellungen*/
 .flagge {
     position: absolute;
     display: block;
@@ -12,38 +13,40 @@ body {
     height: 600px;
 }
 
+/*Blaue Streifen */
 .eins {
     height: 120px;
-    width: 900;
+    width: 900px;
     background-color: navy;
 }
 
 .drei {
     height: 120px;
-    width: 900;
+    width: 900px;
     background-color: navy;
 }
 
 .funf {
     height: 120px;
-    width: 900;
+    width: 900px;
     background-color: navy;
 }
 
+/*weiße Streifen*/
 .zwei {
     height: 120px;
-    width: 900;
+    width: 900px;
     background-color: white;
 }
 
 .vier {
     height: 120px;
-    width: 900;
+    width: 900px;
     background-color: white;
 }
 
+/*Der Cuba Text*/
 .text {
-    
     padding-top: 25px;
     padding-left: 50%;
     color: white;
@@ -52,6 +55,7 @@ body {
     margin: 0px;
 }
 
+/*Das Rote Dreieck*/
 .dreieck{
     position: relative;
     background-color: red;
@@ -60,6 +64,7 @@ body {
     clip-path: polygon(100% 50%, 0 0, 0 100%);
 }
 
+/*Der weiße Stern*/
 .stern{
     position: absolute;
     transform: translate(-50%, -50%);
